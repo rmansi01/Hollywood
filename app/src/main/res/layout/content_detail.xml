@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".views.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <TextView
+        android:id="@+id/tvtituloproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorTitle"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvbodyproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="inherit"
+        android:textSize="18sp"
+        android:textColor="@color/colorBody"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/ivproductodetail"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        app:srcCompat="@drawable/fajitas_el_paso" />
+
+    <TextView
+        android:id="@+id/tvsumary"
+        android:layout_width="match_parent"
+        android:textAlignment="inherit"
+        android:textSize="18sp"
+        android:textColor="@color/colorBody"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
